@@ -1,0 +1,69 @@
+body{
+  background: linear-gradient(to bottom, skyblue,pink,pink,rgb(200, 198, 198));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.navbar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  text-decoration: none;
+  font-size: 23px;
+  background-color:blue;
+  
+}
+.navbar li a{
+  color: white;
+  font-size: 30px;
+  font-family: cursive;
+}
+.navbar li a:hover{
+  color: pink;
+}
+#studentsflex{
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+#stuAddBtn{
+  font-size: 25px;
+  width: 300px;
+  border-radius: 30px;
+  margin-right: 70px;
+  cursor: pointer;
+}
+#tableHead{
+  width: 100vw;
+  height: 120vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 70px;
+} 
+table {
+  width: 1300px;
+  height: 100px;
+}
+  
+tr {
+  /* border-bottom: 1px solid black; */
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  font-size: 20px;
+}
+  
+td {
+  text-align: center;
+  /* border-bottom: 1px solid black; */
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  color: black;
+  height: 47px;
+  box-shadow: 1px 1px 10px gray;
+}
+th{
+  height: 52px;
+  color: purple;
+  box-shadow: inset 1px 1px 10px blueviolet;
+}
